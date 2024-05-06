@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+body{
+    background-color: #f1d3777a;
+    margin: 0%;
+    font-family: cursive;
+}
+a{
+    text-decoration: none;
+    padding-right: 25px;
+    color: white;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 1.5em;
+    
+}
+div section{
+    background-image:linear-gradient(to top,#F39237, rgba(0, 0, 255, 0.493));
+    margin-left: 240px;
+    margin-right: 240px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.247);
+}
+a:hover{
+    text-decoration: underline;
+    background-color: rgba(0, 0, 255, 0.493);
+    color: #F39237;
+    padding: 5px;
+    border-radius: 7px;
+    transition-duration: 0.8s;
+}
+nav{
+    background-color: #1D2F6F;
+    padding: 15px;
+    font-size: larger;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow:2px 2px 3px rgba(0, 0, 0, 0.253) ; 
+}
+h1{
+    margin-left: 20px;
+    background-image: linear-gradient(to right, #f58822a2, transparent);
+    padding: 5px;
+    border-radius: 5px;
+}
+img.akira{
+    margin-left: 280px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.253);
+}
+p.textoakira{
+    text-indent: 25px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.192);
+    }
+.textoakira > a{
+    color: black;
+    padding: 5px;
+}
+.linkakira{
+    color: black;
+    padding: 5px;
+}
+.dr{
+    color: black;
+    padding: 5px;
+}
+h2{
+    margin-left: 20px;
+    background-image: linear-gradient(to right, #f58822a2, transparent);
+    padding: 5px;
+    border-radius: 5px;
+}
+img.vegeta{
+    padding-left: 195px;
+    border-radius: 5px;
+}
+img.goku{
+    margin-left: 75px;
+    border-radius: 5px;
+}
+video{
+    padding-left: 200px;
+    width: 350px;
+    height: 200px;
+}
+p.textogoku{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-indent: 25px;
+    margin-left: 75px;
+    margin-right: 100px;
+    padding: 20px;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.tg{
+    color: black;
+    padding: 5px;
+}
+.tv{
+    color: black;
+    padding: 5px;
+}
+.tv:hover{
+    background-color: rgba(0, 0, 255, 0.541);
+    color: black;
+}
+.tg:hover{
+    background-color: rgba(0, 0, 255, 0.541);
+    color: black;
+}
+.raca{
+    color: black;
+    padding: 5px;
+}
+.raca:hover{
+    background-color: rgba(0, 0, 255, 0.541);
+    color: black;
+}
+p.textovegeta{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-indent: 25px;
+    margin-left: 75px;
+    margin-right: 100px;
+    padding: 20px;
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+section{
+    background-image:linear-gradient(to top,#F39237, rgba(0, 0, 255, 0.493));
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.247);
+}
+aside{
+    background-color: white;
+    padding: 5px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(170, 166, 166, 0.562);
+}
+aside> ol{
+    list-style-position: inside;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-image: linear-gradient(to right, #f39237, transparent);
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 15px;
+}
+aside > h4{
+    text-align: center;
+    background-image: linear-gradient(to right, #f39237, transparent);
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+footer{
+    color: white;
+    text-align: center;
+    background-color: #1D2F6F;
+    padding: 5px;
+}

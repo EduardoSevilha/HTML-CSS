@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+    <link rel="shortcut icon" href="favicons/HTML03.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Arquivos de Mídia</h1>
+    <p><a href="links.html">Voltar</a> ou ir para a <a href="index.html">página principal</a>.</p>
+    <hr>
+    <h3>Imagens que se adaptam em diferentes telas.</h3>
+    <p>Veja:</p>
+    <picture><source media="(max-width: 790px)" srcset="imagens/paisagem-p.png" type="image/png">
+    <source media="(max-width: 1290px)" srcset="imagens/paisagem-m.png" type="imagem/png">
+    <img src="imagens/paisagem-g.png" alt="Paisagem">
+    </picture>
+    <hr>
+    <h2>Áudios</h2>
+    <audio preload="metadata" controls>
+    <source src="musica/musica1.mp3" type="audio/mpeg">
+    </audio>
+    <p>Caso o navegador não for disponível para reproduzir áudios, podemos <a href="musica/musica1.mp3" download="musica/musica1.mp3">baixar</a> ele.</p>
+    <hr>
+    <h2>Vídeos externos e internos</h2>
+    <p>Vídeos internos:</p>
+    <video src="videos/video2.mp4" width="560px" controls></video>
+    <p>Vídeos externos:</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg?si=XHgZAh23q8asrtFu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br><iframe width="560" height="315" src="https://www.youtube.com/embed/IGTJyeSGrzI?si=5VMfMZ6YNtOmFnMx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <hr>
+    Ir para a <a href="intrudução css.html">próxima página</a>.
+</body>
+</html>

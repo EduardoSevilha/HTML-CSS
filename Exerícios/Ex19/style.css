@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(198, 215, 236);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1#Vasco{
+    text-align: center;
+    background-color: rgba(171, 216, 200, 0.603);
+    border-radius: 10px;
+}
+h1{
+    color:  rgb(94, 153, 226);
+}
+h2{
+    color:  rgb(21, 80, 151);
+}
+.basico{
+    color: rgb(158, 223, 69);
+}
+.intermediario{
+    color: rgb(197, 216, 26);
+}
+.avancado{
+    color: rgb(252, 74, 74);
+}
