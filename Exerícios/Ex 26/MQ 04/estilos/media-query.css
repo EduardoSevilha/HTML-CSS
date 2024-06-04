@@ -1,0 +1,21 @@
+@charset"UTF-8";
+
+/* Todas as demais mídias */
+
+@media print { /* IMPRESSÃO */
+    
+}
+
+@media screen and (min-width: px) and (max-width: px) { /* TABLET */
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1220px) { /* DESKTOP */
+    
+}
+
+@media screen and (min-width: 1200px) { /* TELAS GRANDES */
+    
+}
